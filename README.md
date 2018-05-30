@@ -71,7 +71,7 @@ False
 ...     if ( meta.skipped > 0 ):
 ...         print("Skipped Frames: {}".format(meta.skipped))
 ...     cv2.imshow("vid", img)
-...     k = cv2.waitKey(1)
+...     key = cv2.waitKey(1)
 ...     if ( key == ord('q') ):
 ...         break
 ```
